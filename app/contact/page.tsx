@@ -5,6 +5,7 @@ import emailjs from 'emailjs-com'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
